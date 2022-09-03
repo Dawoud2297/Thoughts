@@ -1,0 +1,105 @@
+*,*::before , *::after {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: gray; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+body {
+  margin: 0px;
+}
+.header {
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 120px;
+  background-color: #CCCDC6;
+}
+.logo {
+  justify-content: flex-start;
+  margin-left: 50px;
+  font-size: 106px;
+  font-weight: 900;
+}
+.actions {
+  float: right;
+   margin-left: auto;
+   margin-right: 50px;
+}
+span{
+  color: red;
+}
+.content {
+  margin : 50px;
+}
+.checkbox {
+  float: right;
+}
+.thePost {
+  margin-left: 50px;
+  margin-top: 25px;
+  font-size: 40px;
+  font-weight: 1000;
+}
+.date {
+  float: right;
+}
+.registerHeader{
+  font-family: 'Brush Script MT', cursive;
+  font-size: 60px;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  height: 120px;
+  background-color: #008631;
+}
+.cardContainer {
+  margin: 70px 200px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+}
+.outCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  margin-left: 100px;
+  background-color: transparent;
+}
+
+.textarea {
+  width: 500px;
+  margin: 0px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.9);
+
+}
+
+.popup {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(6px);
+}
+
+.popupColor {
+  background-image: url("http://localhost:3000/owl-night-bird.jpg");
+  padding: 350px;
+}
